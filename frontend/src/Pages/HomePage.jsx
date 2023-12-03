@@ -1,7 +1,10 @@
 import React from "react";
+import {Container} from "@chakra-ui/react"
 
 const HomePage = () => {
-  return <div>This is Home page</div>;
+  return <Container>
+
+  </Container>;
 };
 
 export default HomePage;
