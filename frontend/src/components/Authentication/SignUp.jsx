@@ -148,6 +148,7 @@ const SignUp = () => {
       <FormControl id="email" isRequired>
         <FormLabel>Email</FormLabel>
         <Input
+        value={email}
           placeholder="Enter Your Email"
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -157,6 +158,7 @@ const SignUp = () => {
         <InputGroup size="md">
           <Input
             type={show ? "text" : "password"}
+            value={password}
             placeholder="Enter Password"
             onChange={(e) => setPassword(e.target.value)}
           />
