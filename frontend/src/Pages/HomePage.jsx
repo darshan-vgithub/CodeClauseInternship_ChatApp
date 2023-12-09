@@ -19,13 +19,13 @@ const HomePage = () => {
         display="flex"
         justifyContent="center"
         p={3}
-        bg={"white"}
+        bg={"#191970"}
         w="100%"
         m="40px 0 15px 0"
         borderRadius="lg"
         borderWidth="1px"
       >
-        <Text fontSize={"3xl"} fontFamily={"Work sans"} color={"black"}>
+        <Text fontSize={"3xl"} fontFamily={"Work sans"} color={"white"}>
           Talk-A-Tive
         </Text>
       </Box>
